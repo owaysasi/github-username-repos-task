@@ -1,0 +1,51 @@
+const SecondTaskStyle = theme => ({
+    container:{
+        paddingTop:64, 
+    },
+    listContainer:{
+        position:'relative',
+        minHeight:500
+    },
+    listSubContainer:{
+        width:'100%', 
+        marginTop:64
+    },
+    backButton:{
+        position:'absolute', 
+        right:0
+    },
+    searchContainer:{
+        height:100
+    },
+    search:{
+        width:300
+    },
+    name:{
+        marginRight:4 
+    },
+    declaration:{
+        marginTop:24
+    },
+    repoLogo:{
+        width:20, 
+        height:20  
+    },
+    github:{
+        width:14, 
+        height:14, 
+        opacity: '.8',
+    },
+    circularProgress:{
+        position:'absolute', 
+        left:'50%', 
+        top:'25%'
+    },
+    noResult:{
+        width:'100%',
+        textAlign:'center',
+        color:'#95A5A5', 
+        fontSize:24
+    },
+});
+
+export default SecondTaskStyle
